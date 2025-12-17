@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+hr {
+  border: none; /* Remove as bordas padrão */
+  height: 10px; /* Define a espessura da linha */
+  background-color: black; /* Cor da linha */
+  width: 100%; /* Largura da linha */
+  margin: 20px auto; /* Centraliza a linha e adiciona margem */
+}
+body{
+  background-color: rgb(80, 161, 66);
+}
+.conteiner-header {
+  background-color: black;
+  color: rgb(42, 102, 57);
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner-header img{
+  width: 5%;
+  margin-left: 2%;
+}
+
+
+.mouthes {
+  text-align: center;
+  align-items: center;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mouthes a {
+font-size: 1.4vw;
+  width: 10%;
+  margin-left: 9%;
+  padding: 2%;
+  background-color: black;
+  margin-bottom: 2%;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+}
+.mouthes a:hover {
+  color: #000;
+  background-color: wheat;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.mouthes-infos{
+    background-color: rgb(80, 161, 66);
+}
+.mouthes-infos h1{
+    color: rgb(11, 31, 25);
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+#Januery, #fabuary, #march, .month{
+    justify-content: center;
+    gap: 20px;
+    display: flex ;
+    align-items: stretch;
+}
+#Januery figcaption, #fabuary figcaption, #march figcaption, .month figcaption{
+    padding-top: 5%;
+    color: white;
+    font-size: 1.2vw;
+    line-height: 1.9vw;
+}
+#Januery img, #fabuary img, #march img, .month img{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+#Januery figure, #fabuary figure, #march figure, .month figure{
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    text-align: center;
+    background-color: #000;
+    border: #000 solid 2px;
+    border-radius: 30px;
+    flex: 1;
+    margin: 0%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#Januery figure h2, #fabuary figure h2, #march figure h2, .month figure h2{
+    color: white;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
